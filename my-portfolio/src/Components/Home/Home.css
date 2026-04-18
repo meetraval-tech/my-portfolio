@@ -1,0 +1,62 @@
+.home{
+    height: 400px;
+    color:white;
+}
+.home-content {
+    
+    margin:auto;
+    padding:10px;
+    padding-left: 250px;
+    margin-top:100px;
+}
+.home-content h3{
+    margin-top: 20px;
+    color: rgb(253, 255, 110);
+
+
+}
+.button-for-action{
+    display: flex;
+}
+.hire-me-button{
+    background-color: #ff854C;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid yellow;
+    font-size:18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.hire-me-button:hover{
+    background-color: white;
+    width:220px;
+    color: black;
+    transition-duration: 1s;
+}
+.get-resume-button{
+ background-color: #2934f9;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid rgb(204, 226, 14);
+    font-size:18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left:10px;
+}
+.get-resume-button:hover{
+      background-color: white;
+    width:220px;
+    color: black;
+    transition-duration: 1s;
+}
+.get-resume-button a{
+text-decoration: none;
+color:white ;
+}
