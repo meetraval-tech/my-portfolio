@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { use, useState } from 'react';
 import "./TechStack.css";
 
 const TechStack = () => {
@@ -28,7 +28,7 @@ const TechStack = () => {
         {
             name: "Python"
         },
-    ]
+    ];
     const colors = [
         "#6C63FF", // Soft Neon Purple
         "#A393EB", // Lavender
@@ -47,6 +47,11 @@ const TechStack = () => {
         "#2D2A55", // Muted Indigo
         "#E9ECEF"  // Light Gray
     ];
+    const [showMoreTechStack, setShowMoreTechStack] = useState(6);
+    const loadmore = () => {
+        setShowMoreTechStack((prev) => prev + 3);
+
+    }
     return (
         <div className='container techstack-section'>
             <div className='section-title'>
@@ -54,7 +59,7 @@ const TechStack = () => {
                 <span className='line'></span>
             </div>
             <div className='row'>
-                {data.map((item, index) => (
+                {data.slice(0, showMoreTechStack).map((item, index) => (
                     <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index}>
                         <div className='tech-content'>
                             <span className='tech-number' style={{ backgroundColor: colors[index] }}>
@@ -65,6 +70,11 @@ const TechStack = () => {
                     </div>
                 ))}
             </div>
+            {showMoreTechStack >= data.length ? null : 
+            (<span className='load-more-tech-stack' onClick={loadmore} >
+                Show More
+            </span>)}
+
         </div>
     )
 }
