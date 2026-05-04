@@ -5,7 +5,7 @@ import Mycv from "./cv.pdf"
 
 const Home = () => {
     return (
-        <div className="container-fluid home">
+        <div className="container-fluid home" id="home">
             <div className="container home-content">
                 <h1>Hi, I'm Meet Raval</h1>
                 <h3><Typewriter

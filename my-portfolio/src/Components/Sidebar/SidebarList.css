@@ -30,3 +30,11 @@ list-style-type: none;
 .navbar-items-only-icons ul li svg{
     margin-left: 10px;
 }
+
+.navbar-items .active{
+    border-bottom: 2px solid yellow;
+    color: yellow;
+}
+#project {
+  min-height: 100vh;
+}
