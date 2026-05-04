@@ -19,7 +19,7 @@ const About = () => {
                             </span>
                         </div>
                         <p className="description">
-                           I’m a web developer with 1 year of experience working with PHP. I’ve built and maintained websites, worked on backend logic, and handled basic database tasks. I’m comfortable with HTML, CSS, and JavaScript, and I focus on writing clean, practical code that works well in real projects.
+                          I’m a web developer with experience in PHP, specializing in building and maintaining dynamic websites and web applications. I have worked on backend development, database management, and creating efficient, user-friendly solutions. Along with PHP, I’m skilled in HTML, CSS, and JavaScript, and I focus on writing clean, maintainable, and practical code that delivers reliable performance in real-world projects.
                         </p>
                     </div>
                 </div>
