@@ -29,3 +29,8 @@ text-align: center;
     margin: 1px auto;
     background-color: yellow;
 }
+.description {
+  margin-top: 50px;
+   font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
