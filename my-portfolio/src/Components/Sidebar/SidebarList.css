@@ -38,3 +38,9 @@ list-style-type: none;
 #project {
   min-height: 100vh;
 }
+
+@media (max-width:1000px){
+    .sidebar{
+        display: none;
+    }
+}
