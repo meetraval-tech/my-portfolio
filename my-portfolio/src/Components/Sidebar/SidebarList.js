@@ -36,9 +36,9 @@ const SidebarList=({expandSidebar})=>{
                             <li className="nav-item"> <FcTodoList size={25} />Project</li>
                             </Link>
                             {/* <li className="nav-item"> <FcSalesPerformance size={25} />Testimonial</li> */}
-                            <Link to="contact" spy={true} smooth={true} duration={100} offset={-100}>
+                            {/* <Link to="contact" spy={true} smooth={true} duration={100} offset={-100}>
                             <li className="nav-item"> <FcContacts size={25} />Contact</li>        
-                            </Link>                
+                            </Link>                 */}
                         </ul>
                     </div>
                   ) : (
