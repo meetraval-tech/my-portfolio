@@ -1,46 +1,66 @@
 .sidebar-profile-pic img {
-border-radius: 90px;
-margin-top: 10px;
-height: 150px;
-display:flex;
-vertical-align: middle;
-margin: 0 auto;
-object-fit: cover;
-border: 3px solid yellow;
-
-
-}
-.navbar-items ul li{
-    color: white;
-    list-style-type: none;
-    cursor:pointer;
-    margin-top: 30px;
-}
-.navbar-items ul li svg{
-margin-right: 25px;
-margin-left: 25px;
-
-}
-.navbar-items-only-icons ul li{
-margin-top:10px;
-cursor: pointer;
-list-style-type: none;   
+  border-radius: 90px;
+  margin-top: 10px;
+  height: 150px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  object-fit: cover;
+  border: 3px solid yellow;
 }
 
-.navbar-items-only-icons ul li svg{
-    margin-left: 10px;
+.navbar-items ul li {
+  color: white;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 30px;
 }
 
-.navbar-items .active{
-    border-bottom: 2px solid yellow;
-    color: yellow;
+.navbar-items ul li svg {
+  margin-right: 25px;
+  margin-left: 25px;
 }
+
+.navbar-items-only-icons ul li {
+  margin-top: 10px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.navbar-items-only-icons ul li svg {
+  margin-left: 10px;
+}
+
+.navbar-items .active {
+  border-bottom: 2px solid yellow;
+  color: yellow;
+}
+
 #project {
   min-height: 100vh;
 }
 
-@media (max-width:1000px){
-    .sidebar{
-        display: none;
-    }
+/* ── Small Laptop (769px – 1024px) ── */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .sidebar-profile-pic img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .navbar-items ul li {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .navbar-items ul li svg {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+/* ── Tablet & Mobile (≤ 768px) — sidebar hidden, no styles needed ── */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }

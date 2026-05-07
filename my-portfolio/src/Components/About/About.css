@@ -1,36 +1,96 @@
-.about-section{
-height: auto;
-box-shadow:15px 9px 9px -2px rgba(230,224,224,0.86);
--webkit-box-shadow:15px 9px 9px 2px rgba(230,224,224,0.86);
--moz-box-shadow:15px 9px 9px -2px rgba(230,224,224,0.86);
-margin-top: 50px ;
+.about-section {
+  height: auto;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px 2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  margin-top: 50px;
 }
 
+.about-image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 190px;
+  margin-left: 250px;
+  margin-top: 50px;
+  border: 5px solid yellow;
+}
 
-.about-image img{
-height: 300px;
-width: 300px;
-border-radius: 190px;
-margin-left: 250px;
-margin-top: 50px;
-border: 5px solid yellow;
+.about-details {
+  margin-top: 50px;
 }
-.about-details{
-    margin-top: 50px;
-}
-.about-title h5{
-text-align: center;
 
+.about-title h5 {
+  text-align: center;
 }
-.line{
-    display:block;
-    width: 70px;
-    height: 3px;
-    margin: 1px auto;
-    background-color: yellow;
+
+.line {
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 1px auto;
+  background-color: yellow;
 }
+
 .description {
   margin-top: 50px;
-   font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ── Small Laptop (769px – 1024px) ── */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .about-image img {
+    margin-left: 80px;
+    height: 260px;
+    width: 260px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}
+
+/* ── Tablet (481px – 768px) ── */
+@media (max-width: 768px) and (min-width: 481px) {
+  .about-image img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 220px;
+    width: 220px;
+  }
+
+  .about-details {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 17px;
+    text-align: left;
+  }
+}
+
+/* ── Mobile (< 480px) ── */
+@media (max-width: 480px) {
+  .about-image img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 180px;
+    width: 180px;
+    margin-top: 20px;
+  }
+
+  .about-details {
+    margin-top: 15px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .description {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+  }
 }

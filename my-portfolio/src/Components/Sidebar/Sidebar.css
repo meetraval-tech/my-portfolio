@@ -1,37 +1,58 @@
-.sidebar-section{
-    display: flex;
-    background-color: #030303da;
-}
-.sidebar{
-    height: 100vh;
-    background-color: #030303da;
-    width: 95px;
-    position:fixed;
+.sidebar-section {
+  display: flex;
+  background-color: #030303da;
 }
 
+.sidebar {
+  height: 100vh;
+  background-color: #030303da;
+  width: 95px;
+  position: fixed;
+}
 
 .sidebar-expand {
-width: 230px;
-
+  width: 230px;
 }
 
-.container-fluid{
-    padding-left: 0px!important;
-    padding-right: 0px!important;
-    overflow:hidden;   
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
 }
 
-.icon-for-sidebar-expand-and-collapse{
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    cursor: pointer;
+.icon-for-sidebar-expand-and-collapse {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
 }
 
-.icon-for-sidebar-expand-and-collapse p svg{
-    background-color: #19092c;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 50px;
+.icon-for-sidebar-expand-and-collapse p svg {
+  background-color: #19092c;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+/* ── Small Laptop (769px – 1024px) ── */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .sidebar {
+    width: 70px;
+  }
+
+  .sidebar-expand {
+    width: 180px;
+  }
+}
+
+/* ── Tablet & Mobile (≤ 768px) — hide sidebar, show top navbar ── */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .sidebar-section {
+    flex-direction: column;
+  }
 }

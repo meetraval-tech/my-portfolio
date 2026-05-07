@@ -20,9 +20,9 @@ const Home = () => {
                     }}
                 /></h3>
                 <div className="button-for-action">
-                    <div className="hire-me-button">
+                    {/* <div className="hire-me-button">
                         Here Me
-                    </div>
+                    </div> */}
                     <div className="get-resume-button">
                         <a href={Mycv} download="Meet_Raval_cv.pdf" >
                         Get Resume

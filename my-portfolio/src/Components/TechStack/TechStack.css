@@ -1,76 +1,144 @@
 .techstack-section {
-    margin-top: 30px;
-    margin-left: 200px;
-    margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-bottom: 40px;
 }
 
 .section-title h5 {
-    text-align: center;
+  text-align: center;
 }
 
 .tech-content {
-    /* height: auto; */
-    padding: 10px;
-    color: balck;
-    margin-top: 50px;
-    margin-left: 40px;
-    box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
-    -webkit-box-shadow: 15px 9px 9px 2px rgba(230, 224, 224, 0.86);
-    -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
-    margin-top: 50px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -webkit-box-shadow: 15px 9px 9px 2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
 }
-.tech-content-marked{
-background-color: #FF854C;
-color: white;
+
+.tech-content-marked {
+  background-color: #ff854c;
+  color: white;
 }
+
 .tech-content p {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .tech-content:hover {
-    background-color: #FF854C;
-    color: white;
-    cursor: pointer;
-    transition-duration: 1s;
-
-    box-shadow: -6px 11px 5px -2px rgba(0, 0, 0, 0.42);
-    -webkit-box-shadow: -6px 11px 5px -2pxrgba(0, 0, 0, 0.42);
-    -moz-box-shadow: -6px 11px 5px -2px rgba(0, 0, 0, 0.42);
+  background-color: #ff854c;
+  color: white;
+  cursor: pointer;
+  transition-duration: 1s;
+  box-shadow: -6px 11px 5px -2px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -2px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -2px rgba(0, 0, 0, 0.42);
 }
 
 .tech-number {
-    border-radius: 90px;
-    height: 50px;
-    width: 50px;
-    color: white;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: block;
-    margin: 0 auto;
-    line-height: 50px;
-    margin-top: -30px;
+  border-radius: 90px;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  line-height: 50px;
+  margin-top: -30px;
 }
 
 .load-more-tech-stack {
-    background-color: coral;
-    width: 150px;
-    padding: 10px;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-    border-radius: 5px;
-    margin-bottom: 40px;
-    cursor: pointer;
+  background-color: coral;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  cursor: pointer;
 }
-.load-more-tech-stack:hover{
-    background-color:blueviolet;
-    transition-duration: 1s;
+
+.load-more-tech-stack:hover {
+  background-color: blueviolet;
+  transition-duration: 1s;
+}
+
+/* ── Small Laptop (769px – 1024px) ── */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .techstack-section {
+    margin-left: 80px;
+  }
+
+  .tech-content {
+    margin-left: 20px;
+  }
+
+  .tech-content p {
+    font-size: 18px;
+  }
+}
+
+/* ── Tablet (481px – 768px) ── */
+@media (max-width: 768px) and (min-width: 481px) {
+  .techstack-section {
+    margin-left: 0;
+    padding: 0 15px;
+  }
+
+  .tech-content {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .tech-content p {
+    font-size: 17px;
+  }
+}
+
+/* ── Mobile (< 480px) ── */
+@media (max-width: 480px) {
+  .techstack-section {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .tech-content {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 8px;
+  }
+
+  .tech-content p {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  .tech-number {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+
+  .load-more-tech-stack {
+    width: 130px;
+    font-size: 14px;
+    padding: 8px;
+  }
+  .techstack-section .col-sm-12 {
+  width: 50% !important;
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+}
 }
