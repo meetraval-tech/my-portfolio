@@ -56,15 +56,15 @@ const ProjectList = ({ name, des, projectlink, techused }) => {
         ))}
     </div>
 
-    <div className="live-demo-button">
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href={projectlink}
-      >
-        Live Demo
-      </a>
-    </div>
+      {/* <div className="live-demo-button">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={projectlink}
+        >
+          Live Demo
+        </a>
+      </div> */}
   </motion.div>
 );
 };

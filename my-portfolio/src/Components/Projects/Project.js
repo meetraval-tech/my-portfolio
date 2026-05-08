@@ -5,46 +5,52 @@ import "./Project.css";
 const Project = () => {
   const data = [
     {
-      name: "MERN Stack Job Portal",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
+      name: "Car Rental Website",
+      des: "Designed and implemented a dynamic car booking website using core PHP and jQuery. Created a user-friendly interface for browsing cars, selecting rental dates, and making reservations. Developed an intuitive admin panel to manage listings, bookings, and inquiries efficiently. Ensured optimal performance across devices with responsive design principles.Conducted thorough testing for robust functionality and a smooth user experience.",
       projectlink: "https://react-company-profile.netlify.app/",
       techused: [
         {
-          techname: "Node Js",
+          techname: "HTML5",
         },
         {
-          techname: "Expres Js",
+          techname: "bootstrap 5",
         },
         {
-          techname: "React Js",
+          techname: "jQuery",
         },
         {
-          techname: "Next Js",
+          techname: "Core PHP",
+        },
+        {
+          techname: "Mysqli",
         },
       ],
     },
 
     {
-      name: "MERN Stack Event Management Portal",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
+      name: " CMS website",
+      des: "The primary objective of this project is to develop a user-friendly CMS website, Cabinpac hire, aimed at delivering an immersive online experience. ",
       projectlink: "https://react-company-profile.netlify.app/",
       techused: [
         {
-          techname: "Django",
+          techname: "HTML5",
         },
         {
-          techname: "Expres Js",
+          techname: "CSS3",
         },
         {
-          techname: "Vue Js",
+          techname: "jQuery",
         },
         {
-          techname: "Nuxt Js",
+          techname: "Wordpress - PHP",
+        },
+         {
+          techname: "Mysqli",
         },
       ],
     },
 
-    
+
   ];
 
   return (
@@ -59,7 +65,7 @@ const Project = () => {
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}>
 
             <ProjectList  {...item} />
-           
+
           </div>
         ))}
       </div>

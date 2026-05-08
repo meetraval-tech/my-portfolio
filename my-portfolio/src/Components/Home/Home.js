@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from 'typewriter-effect';
-import Mycv from "./cv.pdf"
+import Mycv from "./MeetRaval_cv.pdf"
 
 const Home = () => {
     return (
