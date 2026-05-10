@@ -47,12 +47,12 @@ const SidebarList=({expandSidebar})=>{
                         <ul>
                             <li className="nav-item"> <FcHome size={25} /></li>
                             <li className="nav-item"> <FcNightPortrait size={25} /></li>                    
-                            <li className="nav-item"> <FcFactory size={25} /></li>
+                            {/* <li className="nav-item"> <FcFactory size={25} /></li> */}
                             <li className="nav-item"> <MdBiotech size={25} color="orange" /></li>
-                            <li className="nav-item"> <MdCastForEducation size={25} color="orange"  /></li>
+                            {/* <li className="nav-item"> <MdCastForEducation size={25} color="orange"  /></li> */}
                             <li className="nav-item"> <FcTodoList size={25} /></li>
-                            <li className="nav-item"> <FcSalesPerformance size={25} /></li>
-                            <li className="nav-item"> <FcContacts size={25} /></li>                        
+                            {/* <li className="nav-item"> <FcSalesPerformance size={25} /></li>
+                            <li className="nav-item"> <FcContacts size={25} /></li>                         */}
                         </ul>
                     </div>
             </div>
