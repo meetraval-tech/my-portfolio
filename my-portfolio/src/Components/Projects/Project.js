@@ -29,7 +29,7 @@ const Project = () => {
 
     {
       name: " CMS website",
-      des: "The primary objective of this project is to develop a user-friendly CMS website, Cabinpac hire, aimed at delivering an immersive online experience. ",
+      des: "The primary objective of this project is to develop a user-friendly CMS website, aimed at delivering an immersive online experience. ",
       projectlink: "https://react-company-profile.netlify.app/",
       techused: [
         {
